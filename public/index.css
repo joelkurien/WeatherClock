@@ -1,0 +1,62 @@
+body {
+  margin: 0;
+  text-align: center;
+  background-image:url("images/boatsPogg.jpg");
+  filter: blue(50px);
+  -webkit-filter: blue(50px);
+  z-index:-1;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.header {
+  text-align: left;
+  margin-top: 0;
+  padding: 0 0 0 10px;
+  background-image: linear-gradient(to right, #aee1e1, #d3e0dc, #ece2e1, #fcd1d1);
+}
+
+.brandName {
+  display: inline-block;
+}
+
+.appName {
+   position: relative;
+   display: inline-block;
+   font-size: 20pt;
+   font-weight: bold;
+   color: white;
+   padding-right: 100px;
+   bottom: 10px;
+ }
+
+.brandIcon{
+    position: relative;
+    top: 10px;
+}
+
+.locationDataForm{
+  display: inline-block;
+  padding-top: 30px;
+}
+
+.locationInputBox {
+  height: 30px;
+  width: 750px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  padding-top: 10px;
+  padding-left: 15px;
+  border-radius: 10px;
+  resize: none;
+  position: relative;
+  z-index:0;
+}
+
+.locationButton {
+  background-color: white;
+  position: relative;
+  z-index:1;
+  right: 54px;
+  bottom: 11px;
+  border: none;
+}
